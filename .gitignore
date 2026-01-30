@@ -6,3 +6,4 @@ logs/
 *.class
 *Test.java
 **/test/
+hmall.jks
