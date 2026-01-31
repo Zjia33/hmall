@@ -4,4 +4,6 @@ logs/
 **/target/
 *.iml
 *.class
+*Test.java
+**/test/
 hmall.jks
