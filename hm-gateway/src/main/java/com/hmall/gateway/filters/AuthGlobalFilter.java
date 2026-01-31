@@ -38,7 +38,7 @@ public class AuthGlobalFilter implements GlobalFilter, Ordered {
         if(headers!=null && !headers.isEmpty()){
             token = headers.get(0);
         }
-        Long userId=null;
+        Long userId = null;
         try{
             userId = jwtTool.parseToken(token);
         }catch (UnauthorizedException e){
